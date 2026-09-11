@@ -5,6 +5,8 @@
   --background-2: #fffaf3;
   --background-3: #f2e9e1;
   --foreground: #464261;
+  --foreground-invert: #e0def4;
+  --muted: #6e6a86;
   --primary: #c4a7e7;
 }
 
@@ -13,6 +15,8 @@
   --color-background-2: var(--background-2);
   --color-background-3: var(--background-3);
   --color-foreground: var(--foreground);
+  --color-foreground-invert: var(--foreground-invert);
+  --color-muted: var(--muted);
   --color-primary: var(--primary);
   --font-sans: var(--font-go-mono);
   --font-mono: var(--font-go-mono);
@@ -24,6 +28,8 @@
     --background-2: #1f1d2e;
     --background-3: #26233a;
     --foreground: #e0def4;
+    --foreground-invert: #464261;
+    --muted: #9893a5;
   }
 }
 
