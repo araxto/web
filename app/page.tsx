@@ -5,20 +5,23 @@ import { Icon } from "@iconify/react";
 export default function Home() {
   return (
     <>
-      <section className="flex flex-col items-center justify-center gap-8 max-w-prose">
-        <h2 className="text-xl text-center text-balance">
-          Bikin{" "}
-          <b>
-            <i>Brand</i> Kamu
-          </b>{" "}
-          Tampil Beda Lewat Website & Video <b>Profesional</b>.
-        </h2>
+      <section className="min-h-[80vh] flex flex-col items-center justify-center text-center px-4 max-w-4xl mx-auto">
+  <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight text-balance mb-6">
+    Bikin <span className="italic font-serif text-primary">Brand</span> Kamu Tampil Beda Lewat Website & Video Profesional.
+  </h1>
+  <p className="text-lg md:text-xl text-slate-600 text-balance max-w-2xl mb-8 leading-relaxed">
+    Kami bantu UMKM dan kreator meningkatkan kehadiran digital lewat desain web modern dan editing video yang memikat.
+  </p>
+  <div className="flex flex-col sm:flex-row gap-4 w-full justify-center">
+    <a 
+      href="https://wa.me/..." 
+      className="bg-primary text-white font-semibold px-8 py-3.5 rounded-xl shadow-lg hover:opacity-90 transition-all"
+    >
+      Mulai Konsultasi
+    </a>
+  </div>
+</section>
 
-        <p className="max-w-md text-balance border-l-muted border-l-4 pl-4">
-          Kami bantu UMKM dan kreator ngembangin kehadiran digital lewat desain
-          web modern dan editing video yang memikat.
-        </p>
-      </section>
 
       <section>
         <h2></h2>
