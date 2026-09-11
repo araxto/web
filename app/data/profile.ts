@@ -13,7 +13,7 @@ export const profile = {
     },
     {
       label: "WhatsApp",
-      icon: "mdi:instagram",
+      icon: "mdi:whatsapp",
       to: "https://wa.me/6285261230455",
     },
     {
